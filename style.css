@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* --------------------------------nav-bar-------------------------- */
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background: linear-gradient(to right,#ba77e3,#e38af1);
+    padding:0 !important ;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+} 
+.navbar-nav li{
+    padding:0 10px;
+}
+.navbar-nav li a{
+    text-align: end;
+    float: right;
+}
+.fa {
+    font-size: 30px;
+}
+.navbar-toggler{
+    outline: none;
+}
+/* ---------------------fin nav--------------------------- */
+
+/* ---------------------banner----------------------------- */
+#banner{
+    background: linear-gradient(to right,#4e1d4e,#9f4fdd);
+}
+.play-btn{
+    width: 45px;
+}
+/* -----------------------fin banner------------------- */
+
+/* ------------------------service section------------------- */
+.title::before{
+    content: '';
+    background: #e38af1;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(1.8em);
+}
+/* .title::after{
+    content: '';
+    background: #e38af1;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+} */
+button[type=button]{
+    background: linear-gradient(to right,#9f4fdd,#4e1d4e);
+}
+/* -----------------------------------fin service-------------------- */
+/* -------------------------------testimonials--------------------- */
+.testimonials{
+    border-left: 4px solid #7b1798;
+}
+.testimonials img{
+    width: 60px;
+    height: 60px;
+}
+.d-inline-block{
+    font-size: 12px;
+}
+/* -------------------------------fin testimonials--------------------- */
+/* ---------------------------social media------------------------- */
+.social-icon img{
+    width: 50px;
+    transition: 0.2s;
+}
+.social-icon a:hover img{
+    transform: translateY(-10px);
+}
+/* -------------------------------fin social media----------------------- */
+/* ----------------------------------footer----------------------- */
+#footer{
+    background: linear-gradient(to right,#4e1d4e,#9f4fdd);
+}
+.footer-box i{
+    background: #e38af1;
+    width: 25px;
+    height:25px;
+}
+.footer-box input{
+    max-width: 250px;
+}
