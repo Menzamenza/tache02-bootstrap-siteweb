@@ -51,17 +51,6 @@
     display: block;
     transform: translateY(1.8em);
 }
-/* .title::after{
-    content: '';
-    background: #e38af1;
-    height: 10px;
-    width: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    display: block;
-    transform: translateY(8px);
-} */
 button[type=button]{
     background: linear-gradient(to right,#9f4fdd,#4e1d4e);
 }
